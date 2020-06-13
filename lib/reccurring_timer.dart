@@ -76,6 +76,6 @@ class _TimerState extends State<RecurringTimer> {
 
   @override
   Widget build(BuildContext context) {
-    return child;
+    return child ?? Container();
   }
 }

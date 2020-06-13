@@ -81,6 +81,6 @@ class _TimerState extends State<TimeBuilder> {
 
   @override
   Widget build(BuildContext context) {
-    return child;
+    return child ?? Container();
   }
 }
